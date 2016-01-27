@@ -388,18 +388,39 @@ h1, h2 {
 h2 {
   text-decoration: underline; }
 
+a {
+  text-decoration: none;
+  color: black; }
+  a:hover {
+    color: #4f6c91;
+    opacity: 8; }
+
 .container {
   margin: 0 auto;
-  width: 50%;
+  width: 55%;
   display: flex;
   flex-flow: column wrap;
   padding: 5px; }
+  @media (max-width: 769px) {
+    .container {
+      width: 75%; } }
+  @media (max-width: 420px) {
+    .container {
+      width: 90%; } }
   .container .header {
     text-align: center;
     border-bottom: 5px solid black;
     padding-bottom: 5px; }
+    .container .header h1 {
+      margin: 0; }
+    .container .header span {
+      font-weight: bold; }
     .container .header .contact {
       align-self: center;
-      margin-top: 10px; }
+      margin-top: 20px; }
+  .container .proj-links {
+    float: right; }
+    .container .proj-links a {
+      margin: 0 10px; }
 
 /*# sourceMappingURL=main.css.map */
