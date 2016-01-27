@@ -397,7 +397,7 @@ a {
   border-radius: 10px;
   font-weight: bold; }
   a:hover {
-    color: #4f6c91; }
+    opacity: .8; }
 
 .container {
   margin: 0 auto;
@@ -416,7 +416,7 @@ a {
       padding: 10px; } }
   .container .header {
     text-align: center;
-    border-bottom: 5px solid black;
+    border-bottom: 1px solid black;
     padding-bottom: 5px; }
     .container .header h1 {
       margin: 0; }
