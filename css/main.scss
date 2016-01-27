@@ -3,9 +3,12 @@
 @import url(https://fonts.googleapis.com/css?family=Righteous);
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Chivo:400,900);
 
-$header-font: 'Varela Round', sans-serif;
-$body-font: 'Righteous', sans-serif;
+
+$header-font: 'Chivo', 'Varela Round', sans-serif;
+$body-font: 'Open Sans', 'Righteous', sans-serif;
 
 
 html {
@@ -35,7 +38,7 @@ body {
   line-height: 1.5;
 }
 
-h1,h2,h3 {
+h1,h2, {
   font-family: $header-font;
 }
 
