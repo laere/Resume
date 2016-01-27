@@ -40,6 +40,8 @@ body {
 
 h1,h2, {
   font-family: $header-font;
+  color: #4f6c91;
+  font-size: 2em;
 }
 
 h2 {
@@ -60,19 +62,12 @@ h2 {
     text-align: center;
     border-bottom: 5px solid black;
     padding-bottom: 5px;
-  }
+    .contact {
+      align-self: center;
+      margin-top: 10px;
+      }
+    }
   //SKILLS AND CONTACT//
-  .col {
-    width: 50%;
-    padding: 10px;
-  }
   .skills {
-    float: right;
-    //background-color: blue;
   }
-  .contact {
-    float: left;
-    //  background-color: yellow;
-  }
-
 }
