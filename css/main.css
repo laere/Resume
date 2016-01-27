@@ -444,5 +444,10 @@ a {
   .container .proj-links {
     font-size: .9em;
     font-weight: bold; }
+    .container .proj-links .divider {
+      background-color: #4f6c91;
+      width: 5px;
+      height: 8px;
+      display: inline-block; }
 
 /*# sourceMappingURL=main.css.map */

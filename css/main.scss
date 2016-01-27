@@ -116,10 +116,15 @@ a {
       }
     }
   }
-
   .proj-links {
     font-size: .9em;
     font-weight: bold;
-}
+    .divider {
+      background-color: $font-color;
+      width: 5px;
+      height: 8px;
+      display: inline-block;
+    }
+  }
 
 }
