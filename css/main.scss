@@ -24,10 +24,6 @@ div {
   display: block;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
 ul {
   list-style: none;
   padding: 0;
@@ -51,23 +47,22 @@ h2 {
 
 
 
- a {
-   text-decoration: none;
-   color: black;
-   &:hover {
-     color: $font-color;
-     opacity: 8;
-   }
- }
+a {
+  text-decoration: none;
+  color: black;
+  &:hover {
+    color: $font-color;
+    opacity: 8;
+  }
+}
 
 
 //MAIN ELEMENTS//
 .container {
   margin: 0 auto;
-  width: 55%;
+  width: 60%;
   display: flex;
   flex-flow: column wrap;
-  padding: 5px;
   @media (max-width: 769px) {
     width: 75%;
   }
@@ -88,12 +83,17 @@ h2 {
     .contact {
       align-self: center;
       margin-top: 20px;
-      }
     }
+  }
+
   .proj-links {
-    float: right;
-    a {
-      margin: 0 10px;
+    font-size: .9em;
+    font-weight: bold;
+}
+  .skills {
+    margin: 10px 0;
+    h2 {
+      margin: 0;
     }
   }
 }

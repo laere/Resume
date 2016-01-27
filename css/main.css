@@ -367,10 +367,6 @@ html {
 div {
   display: block; }
 
-img {
-  max-width: 100%;
-  height: auto; }
-
 ul {
   list-style: none;
   padding: 0;
@@ -397,10 +393,9 @@ a {
 
 .container {
   margin: 0 auto;
-  width: 55%;
+  width: 60%;
   display: flex;
-  flex-flow: column wrap;
-  padding: 5px; }
+  flex-flow: column wrap; }
   @media (max-width: 769px) {
     .container {
       width: 75%; } }
@@ -419,8 +414,11 @@ a {
       align-self: center;
       margin-top: 20px; }
   .container .proj-links {
-    float: right; }
-    .container .proj-links a {
-      margin: 0 10px; }
+    font-size: .9em;
+    font-weight: bold; }
+  .container .skills {
+    margin: 10px 0; }
+    .container .skills h2 {
+      margin: 0; }
 
 /*# sourceMappingURL=main.css.map */
