@@ -4,6 +4,8 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
 html {
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -367,13 +369,37 @@ img {
   max-width: 100%;
   height: auto; }
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: "Righteous", sans-serif;
+  line-height: 1.5; }
+
+h1, h2, h3 {
+  font-family: "Varela Round", sans-serif; }
+
+h2 {
+  text-decoration: underline; }
+
 .container {
   margin: 0 auto;
-  width: 60%;
+  width: 50%;
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center; }
+  padding: 5px; }
+  .container .header {
+    text-align: center;
+    border-bottom: 5px solid black;
+    padding-bottom: 5px; }
+  .container .col {
+    width: 50%;
+    padding: 10px; }
+  .container .skills {
+    float: right; }
+  .container .contact {
+    float: right; }
 
 /*# sourceMappingURL=main.css.map */
