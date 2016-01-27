@@ -62,14 +62,14 @@ a {
 //MAIN ELEMENTS//
 .container {
   margin: 0 auto;
-  width: 60%;
+  width: 40%;
   display: flex;
   flex-flow: column wrap;
   @media (max-width: 769px) {
     width: 75%;
   }
   @media (max-width: 420px) {
-    width: 90%;
+    width: 95%;
   }
   //HEADER//
   .header {

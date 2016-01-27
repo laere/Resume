@@ -396,7 +396,7 @@ a {
 
 .container {
   margin: 0 auto;
-  width: 60%;
+  width: 40%;
   display: flex;
   flex-flow: column wrap; }
   @media (max-width: 769px) {
@@ -404,7 +404,7 @@ a {
       width: 75%; } }
   @media (max-width: 420px) {
     .container {
-      width: 90%; } }
+      width: 95%; } }
   .container .header {
     text-align: center;
     border-bottom: 5px solid black;
