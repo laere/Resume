@@ -403,7 +403,7 @@ a {
   background-color: #fff;
   padding: 20px;
   box-shadow: 0px 5px 10px #444; }
-  @media (max-width: 769px) {
+  @media (max-width: 969px) {
     .container {
       width: 75%; } }
   @media (max-width: 420px) {
@@ -430,11 +430,15 @@ a {
           .container .header .contact li {
             display: block;
             margin: 0; } }
+    .container .header .skills li {
+      display: inline-block;
+      margin: 0 5px; }
+      @media (max-width: 1024px) {
+        .container .header .skills li {
+          display: block;
+          margin: 0; } }
   .container .proj-links {
     font-size: .9em;
-    font-weight: bold;
-    margin-bottom: 5px; }
-  .container .skills {
-    margin: 10px 0; }
+    font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */
