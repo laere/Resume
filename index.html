@@ -1,41 +1,98 @@
 
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="css/main.css">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+</head>
+<body>
+  <!-- HEADER -->
+<div class="container">
+  <header class="header">
+    <div><h1>Zack Bostian</h1></div>
+    <div><span>Front-End Developer</span></div>
+  </header>
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+  <!-- SUMMARY -->
+  <section class="summary">
+    <div><h2>Summary</h2></div>
+    <div><p>Hey, I am Zack Bostian. I am an ambitious front-end developer who loves learning, challenges, and bringing ideas to life.</p></div>
+  </section>
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+  <!-- PROJECT EXPERIENCE -->
+  <main role="main">
+    <section class="proj-exp">
+      <div>
+        <h2>Project Experience</h2>
+      </div>
+      <div>
+        <h3>Drawing Board</h3>
+        <p>My Drawing Board application is by far my  favorite project. I decided to kill two birds with one stone and utilize learning jQuery and HTML5 canvas at the same time. It taught me a lot about how the Canvas API works, data binding, and I learned that jQuery is a lot nicer when it comes to DOM traversal and manipulation. It is one of my best designed apps as well.
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+</p>
+      </div>
+      <div>
+        <h3>To-Do List</h3>
+        <p>My To-Do List application was my first application. This application is one of my favoirites because it first taught me about DOM manipulation, and how JavaScript manipulates HTML/CSS elements in the browser. This project utilizes HTML5 local storage to store user tasks. This alone taught me about higher-order functions, and callbacks. It also allowed me to develope a small plugin interface for local storage. This project slinghsotted my passion into overdrive.
+</p>
+      </div>
+      <div>
+        <h3>Weather App</h3>
+        <p>My weather app is an app that utilizes an ajax call to the openweather API. The success function part of the call itself is what allows the user to type in any city or zipcode and retrieve current, up to date, weather information. This project is another one of those big milestones where I further understand how AJAX and JSON work together, what API's are and how they work, and how another part of the JavaScript puzzle fits together. </p>
+      </div>
+      <div>
+        <h3>RPS</h3>
+        <p>My RPS game taught me a lot about what it means when they say: "functions are first class citizens." It gave me a better understanding of taking functions and passing them to other functions. It also helped me get better at calling functions that had parameters. Overall a very fun project.
+</p>
+      </div>
+      <div>
+        <h3>Portfolio Website</h3>
+        <p>I learned abouty CSS3 animations when building my website, and that even the simplest of website layouts can look awesome. It also furthered my skills when it comes to mobile design and that you can't rely on chrome dev tools for how your site actually looks on other devices.
+</p>
+      </div>
+    </section>
+  </main>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
-    </body>
+  <!-- CONTACT AND SKILLS -->
+  <section>
+    <div class='contact col'>
+      <div><h2>Contact</h2></div>
+      <div>
+        <ul>
+          <li>bostianz@gmail.com</li>
+          <li>www.zackbostian.com</li>
+          <li>616-633-8482</li>
+          <li>http://github.com/laere</li>
+          <li>http://twitter.com/laereZB</li>
+        </ul>
+      </div>
+    </div>
+    <div class='skills col'>
+      <div><h2>Skills</h2></div>
+      <div>
+        <ul>
+          <li>JavaScript</li>
+          <li>jQuery</li>
+          <li>HTML5</li>
+          <li>CSS3/SASS</li>
+          <li>Git Workflow</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="main-footer">
+    <div><span>&copy; Zack Bostian 2016</span></div>
+  </footer>
+</div>
+
+</body>
 </html>
