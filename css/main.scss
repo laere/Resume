@@ -105,10 +105,13 @@ a {
     .contact {
       align-self: center;
       margin-bottom: 8px;
+      @media (max-width: 769px) {
+        margin-bottom: 48px;
+      }
       li {
         display: inline-block;
         margin: $no-margin 5px;
-        @media (max-width: 1024px) {
+        @media (max-width: 769px) {
           display: block;
           margin-bottom: 16px;
         }
@@ -119,8 +122,9 @@ a {
         display: inline-block;
         margin-left: 8px;
         margin-right: 8px;
-        @media (max-width: 1024px) {
+        @media (max-width: 769px) {
           display: block;
+          margin-bottom: 16px;
         }
       }
     }

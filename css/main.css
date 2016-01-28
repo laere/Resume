@@ -436,10 +436,13 @@ a {
     .container .header .contact {
       align-self: center;
       margin-bottom: 8px; }
+      @media (max-width: 769px) {
+        .container .header .contact {
+          margin-bottom: 48px; } }
       .container .header .contact li {
         display: inline-block;
         margin: 0 5px; }
-        @media (max-width: 1024px) {
+        @media (max-width: 769px) {
           .container .header .contact li {
             display: block;
             margin-bottom: 16px; } }
@@ -447,9 +450,10 @@ a {
       display: inline-block;
       margin-left: 8px;
       margin-right: 8px; }
-      @media (max-width: 1024px) {
+      @media (max-width: 769px) {
         .container .header .skills li {
-          display: block; } }
+          display: block;
+          margin-bottom: 16px; } }
   .container .summary {
     margin-bottom: 32px; }
   .container .project {
