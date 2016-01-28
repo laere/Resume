@@ -453,9 +453,13 @@ a {
       @media (max-width: 769px) {
         .container .header .skills li {
           display: block;
-          margin-bottom: 16px; } }
+          margin-bottom: px; } }
+  .container .proj-exp div h2 {
+    margin-bottom: 32px; }
   .container .summary {
     margin-bottom: 32px; }
+    .container .summary h2 {
+      margin-bottom: 16px; }
   .container .project {
     margin-bottom: 48px; }
   .container .proj-links {

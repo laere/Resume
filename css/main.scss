@@ -124,13 +124,19 @@ a {
         margin-right: 8px;
         @media (max-width: 769px) {
           display: block;
-          margin-bottom: 16px;
+          margin-bottom: px;
         }
       }
     }
   }
+  .proj-exp div h2 {
+    margin-bottom: 32px;
+  }
   .summary {
     margin-bottom: 32px;
+    h2 {
+      margin-bottom: 16px;
+    }
   }
   .project {
     margin-bottom: 48px;
