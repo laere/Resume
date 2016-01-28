@@ -1,14 +1,12 @@
 @import 'bourbon/bourbon';
 @import '_normalize';
-@import url(https://fonts.googleapis.com/css?family=Righteous);
-@import url(https://fonts.googleapis.com/css?family=Varela+Round);
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,800);
 @import url(https://fonts.googleapis.com/css?family=Chivo:400,900);
 
 
-$header-font: 'Chivo', 'Varela Round', sans-serif;
-$body-font: 'Open Sans', 'Righteous', sans-serif;
+$header-font: 'Chivo', sans-serif;
+$body-font: 'Open Sans', sans-serif;
 $font-color: #4f6c91;
 $no-margin: 0;
 
@@ -67,9 +65,11 @@ a {
   color: #fff;
   background-color: $font-color;
   font-weight: bold;
-  padding: 2px 4px;
   border-bottom: 4px solid #476182;
-  border-radius: 2px;
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
   &:hover {
     opacity: .8;
   }
@@ -97,7 +97,7 @@ a {
     text-align: center;
     border-bottom: 1px solid #222;
     .title {
-      margin-bottom: 16px;
+      margin-bottom: 32px;
       font-weight: bold;
     }
     .name {
@@ -132,12 +132,9 @@ a {
     font-size: 1.5rem;
     font-weight: bold;
     display: inline-block;
-    .divider {
-      background-color: $font-color;
-      width: 5px;
-      height: 8px;
-      display: inline-block;
+    margin-left: 8px;
+    a:nth-child(2) {
+      margin-left: 8px;
     }
   }
-
 }
