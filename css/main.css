@@ -450,8 +450,10 @@ a {
       @media (max-width: 1024px) {
         .container .header .skills li {
           display: block; } }
-  .container .project {
+  .container .summary {
     margin-bottom: 32px; }
+  .container .project {
+    margin-bottom: 48px; }
   .container .proj-links {
     font-size: 1.5rem;
     font-weight: bold;
