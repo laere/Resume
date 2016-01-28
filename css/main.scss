@@ -117,15 +117,16 @@ a {
     .skills {
       li {
         display: inline-block;
-        margin-bottom: 8px;
         margin-left: 8px;
         margin-right: 8px;
         @media (max-width: 1024px) {
           display: block;
-          margin: $no-margin;
         }
       }
     }
+  }
+  .project {
+    margin-bottom: 32px;
   }
   .proj-links {
     font-size: 1.5rem;
