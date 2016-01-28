@@ -16,6 +16,7 @@ $no-margin: 0;
 html {
   box-sizing: border-box;
   background-color: #FCF2E6;
+  font-size: 62.5%; //1rem = 10px//
 }
 
 *, *:after, *:before {
@@ -35,6 +36,7 @@ ul {
 body {
   font-family: $body-font;
   line-height: 1.5;
+  font-size: 16px;
 }
 
 h1,h2, {
@@ -44,15 +46,20 @@ h1,h2, {
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 4rem;
   margin-bottom: 16px;
 }
 h3 {
   display: inline-block;
+  font-size: 2rem;
 }
 
 p {
   text-align: justify;
+  font-size: 1.8rem;
+}
+li {
+  font-size: 1.5rem;
 }
 
 a {
@@ -94,11 +101,10 @@ a {
       font-weight: bold;
     }
     .name {
-      font-size: 2.75em;
+      font-size: 5rem;
     }
     .contact {
       align-self: center;
-      font-size: .9em;
       margin-bottom: 8px;
       li {
         display: inline-block;
@@ -123,7 +129,7 @@ a {
     }
   }
   .proj-links {
-    font-size: .9em;
+    font-size: 1.5rem;
     font-weight: bold;
     display: inline-block;
     .divider {
