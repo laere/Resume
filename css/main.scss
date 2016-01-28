@@ -12,9 +12,10 @@ $body-font: 'Open Sans', 'Righteous', sans-serif;
 $font-color: #4f6c91;
 $no-margin: 0;
 
+
 html {
   box-sizing: border-box;
-  background-color: #4F8D91;
+  background-color: #FCF2E6;
 }
 
 *, *:after, *:before {
@@ -39,12 +40,15 @@ body {
 h1,h2, {
   font-family: $header-font;
   color: $font-color;
-  font-size: 2em;
+  margin: $no-margin;
 }
 
 h2 {
-  text-decoration: underline;
-  margin: 5px $no-margin;
+  font-size: 2.5em;
+  margin-bottom: 16px;
+}
+h3 {
+  display: inline-block;
 }
 
 p {
@@ -55,11 +59,10 @@ a {
   text-decoration: none;
   color: #fff;
   background-color: $font-color;
-  padding: 2px 10px;
-  border-radius: 5px;
   font-weight: bold;
+  padding: 2px 4px;
   border-bottom: 4px solid #476182;
-  text-shadow: 1px 1px 5px #222;
+  border-radius: 2px;
   &:hover {
     opacity: .8;
   }
@@ -69,12 +72,12 @@ a {
 //MAIN ELEMENTS//
 .container {
   margin: $no-margin auto;
-  width: 45%;
+  max-width: 940px;
   display: flex;
   flex-flow: column wrap;
   background-color: #fff;
-  padding: 20px;
-  box-shadow: 0px 5px 10px #222;
+  padding: 32px;
+  box-shadow: 0px 1px 3px #222;
   @media (max-width: 969px) {
     width: 80%;
   }
@@ -86,32 +89,32 @@ a {
   .header {
     text-align: center;
     border-bottom: 1px solid #222;
-    padding-bottom: 5px;
-    .name {
-      margin: $no-margin;
-      font-size: 2.75em;
-    }
-    span {
+    .title {
+      margin-bottom: 16px;
       font-weight: bold;
+    }
+    .name {
+      font-size: 2.75em;
     }
     .contact {
       align-self: center;
-      margin-top: 20px;
-      margin-bottom: 10px;
       font-size: .9em;
+      margin-bottom: 8px;
       li {
         display: inline-block;
         margin: $no-margin 5px;
         @media (max-width: 1024px) {
           display: block;
-          margin: 5px $no-margin;
+          margin-bottom: 16px;
         }
       }
     }
     .skills {
       li {
         display: inline-block;
-        margin: $no-margin 5px;
+        margin-bottom: 8px;
+        margin-left: 8px;
+        margin-right: 8px;
         @media (max-width: 1024px) {
           display: block;
           margin: $no-margin;
@@ -122,6 +125,7 @@ a {
   .proj-links {
     font-size: .9em;
     font-weight: bold;
+    display: inline-block;
     .divider {
       background-color: $font-color;
       width: 5px;

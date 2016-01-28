@@ -360,7 +360,7 @@ th {
 
 html {
   box-sizing: border-box;
-  background-color: #4F8D91; }
+  background-color: #FCF2E6; }
 
 *, *:after, *:before {
   box-sizing: border-box; }
@@ -380,11 +380,14 @@ body {
 h1, h2 {
   font-family: "Chivo", "Varela Round", sans-serif;
   color: #4f6c91;
-  font-size: 2em; }
+  margin: 0; }
 
 h2 {
-  text-decoration: underline;
-  margin: 5px 0; }
+  font-size: 2.5em;
+  margin-bottom: 16px; }
+
+h3 {
+  display: inline-block; }
 
 p {
   text-align: justify; }
@@ -393,22 +396,21 @@ a {
   text-decoration: none;
   color: #fff;
   background-color: #4f6c91;
-  padding: 2px 10px;
-  border-radius: 5px;
   font-weight: bold;
+  padding: 2px 4px;
   border-bottom: 4px solid #476182;
-  text-shadow: 1px 1px 5px #222; }
+  border-radius: 2px; }
   a:hover {
     opacity: .8; }
 
 .container {
   margin: 0 auto;
-  width: 45%;
+  max-width: 940px;
   display: flex;
   flex-flow: column wrap;
   background-color: #fff;
-  padding: 20px;
-  box-shadow: 0px 5px 10px #222; }
+  padding: 32px;
+  box-shadow: 0px 1px 3px #222; }
   @media (max-width: 969px) {
     .container {
       width: 80%; } }
@@ -418,35 +420,36 @@ a {
       padding: 10px; } }
   .container .header {
     text-align: center;
-    border-bottom: 1px solid #222;
-    padding-bottom: 5px; }
-    .container .header .name {
-      margin: 0;
-      font-size: 2.75em; }
-    .container .header span {
+    border-bottom: 1px solid #222; }
+    .container .header .title {
+      margin-bottom: 16px;
       font-weight: bold; }
+    .container .header .name {
+      font-size: 2.75em; }
     .container .header .contact {
       align-self: center;
-      margin-top: 20px;
-      margin-bottom: 10px;
-      font-size: .9em; }
+      font-size: .9em;
+      margin-bottom: 8px; }
       .container .header .contact li {
         display: inline-block;
         margin: 0 5px; }
         @media (max-width: 1024px) {
           .container .header .contact li {
             display: block;
-            margin: 5px 0; } }
+            margin-bottom: 16px; } }
     .container .header .skills li {
       display: inline-block;
-      margin: 0 5px; }
+      margin-bottom: 8px;
+      margin-left: 8px;
+      margin-right: 8px; }
       @media (max-width: 1024px) {
         .container .header .skills li {
           display: block;
           margin: 0; } }
   .container .proj-links {
     font-size: .9em;
-    font-weight: bold; }
+    font-weight: bold;
+    display: inline-block; }
     .container .proj-links .divider {
       background-color: #4f6c91;
       width: 5px;
