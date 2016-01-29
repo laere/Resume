@@ -140,20 +140,27 @@ a {
   }
   .project {
     margin-bottom: 48px;
-  }
-  .proj-links {
-    font-size: 1.5rem;
-    font-weight: bold;
-    display: inline-block;
-    margin-left: 8px;
-    margin-bottom: 12px;
-    a:nth-child(2) {
+    .img-link {
+      background-color: none;
+      padding: 0;
+      border: none;
+    }
+    .proj-links {
+      font-size: 1.5rem;
+      font-weight: bold;
+      display: inline-block;
       margin-left: 8px;
+      margin-bottom: 12px;
+      a:nth-child(2) {
+        margin-left: 8px;
+      }
     }
+    .proj-img {
+      height: 150px;
+      width: 250px;
+      display: block;
+      opacity: .9;
+      position: relative;
+      }
   }
-  .proj-img {
-    height: 200px;
-    width: 300px;
-    display: block;
-    }
 }

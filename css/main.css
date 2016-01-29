@@ -462,17 +462,23 @@ a {
       margin-bottom: 16px; }
   .container .project {
     margin-bottom: 48px; }
-  .container .proj-links {
-    font-size: 1.5rem;
-    font-weight: bold;
-    display: inline-block;
-    margin-left: 8px;
-    margin-bottom: 12px; }
-    .container .proj-links a:nth-child(2) {
-      margin-left: 8px; }
-  .container .proj-img {
-    height: 200px;
-    width: 300px;
-    display: block; }
+    .container .project .img-link {
+      background-color: none;
+      padding: 0;
+      border: none; }
+    .container .project .proj-links {
+      font-size: 1.5rem;
+      font-weight: bold;
+      display: inline-block;
+      margin-left: 8px;
+      margin-bottom: 12px; }
+      .container .project .proj-links a:nth-child(2) {
+        margin-left: 8px; }
+    .container .project .proj-img {
+      height: 150px;
+      width: 250px;
+      display: block;
+      opacity: .9;
+      position: relative; }
 
 /*# sourceMappingURL=main.css.map */
