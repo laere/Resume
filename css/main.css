@@ -375,7 +375,8 @@ ul {
 body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
-  font-size: 16px; }
+  font-size: 16px;
+  color: #444; }
 
 h1, h2 {
   font-family: "Chivo", sans-serif;
