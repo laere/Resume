@@ -146,8 +146,14 @@ a {
     font-weight: bold;
     display: inline-block;
     margin-left: 8px;
+    margin-bottom: 12px;
     a:nth-child(2) {
       margin-left: 8px;
     }
   }
+  .proj-img {
+    height: 200px;
+    width: 300px;
+    display: block;
+    }
 }
